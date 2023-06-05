@@ -26,4 +26,9 @@ async function startProgram() {
     await roll(180, 45, 1) 
     await roll(90, 45, 1)
     setMainLed({ r: 0, g: 255, b: 0 })
+    await roll(90, 45, 1)
+    await roll(40, 45, 0.3)
+    await roll (360, 45, 1.4)
+    await roll (315, 45, 1.2)
+    await Sound.Animal.Cow.play()
 }
